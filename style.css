@@ -22,9 +22,3 @@ body {
 .board div:nth-child(even) {
     background-color: #d2b48c;
 }
-.board div:first-child,
-.board div:nth-child(15),
-.board div:nth-child(211),
-.board div:nth-child(225) {
-    background-color: #5a2d0c;
-}
