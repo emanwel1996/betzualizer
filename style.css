@@ -6,25 +6,25 @@ body {
     background: #eee;
 }
 
-.tablero {
+.board {
     display: grid;
     grid-template-columns: repeat(15, 40px);
     grid-template-rows: repeat(15, 40px);
     border: 4px solid #5a2d0c;
 }
-.tablero div {
+.board div {
     width: 40px;
     height: 40px;
 }
-.tablero div:nth-child(odd) {
+.board div:nth-child(odd) {
     background-color: #8b5a2b;
 }
-.tablero div:nth-child(even) {
+.board div:nth-child(even) {
     background-color: #d2b48c;
 }
-.tablero div:first-child,
-.tablero div:nth-child(15),
-.tablero div:nth-child(211),
-.tablero div:nth-child(225) {
+.board div:first-child,
+.board div:nth-child(15),
+.board div:nth-child(211),
+.board div:nth-child(225) {
     background-color: #5a2d0c;
 }
