@@ -25,7 +25,7 @@ body {
     height: 40px;
 }
 
-.board div:nth-child(even) {
+.board div:nth-child(odd) {
     background-color: #8b5a2b;
 }
 
