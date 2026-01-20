@@ -9,7 +9,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: justify;
     gap: 20px;
 }
 
